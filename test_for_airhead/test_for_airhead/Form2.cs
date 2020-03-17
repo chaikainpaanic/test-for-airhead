@@ -10,28 +10,28 @@ using System.Windows.Forms;
 
 namespace test_for_airhead
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            textBox1.BringToFront();
+
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
             button1.ForeColor = Color.WhiteSmoke;
-            button1.BackColor = Color.FromArgb(218,78,91);
+            button1.BackColor = Color.FromArgb(218, 78, 91);
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
             button1.ForeColor = Color.FromArgb(218, 78, 91);
-            button1.BackColor = Color.FromArgb(49,52,57);
+            button1.BackColor = Color.FromArgb(49, 52, 57);
         }
 
         private void button2_MouseEnter(object sender, EventArgs e)
@@ -48,14 +48,9 @@ namespace test_for_airhead
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 Form2 = new Form2();
-            Form2.Show();
             this.Hide();
+            Form1 Form1 = new Form1();
+            Form1.Show();
         }
     }
 }
