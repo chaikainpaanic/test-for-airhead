@@ -12,6 +12,7 @@ namespace test_for_airhead
 {
     public partial class Form1 : Form
     {
+        public string name, surname, eschoname, groupname;
         public Form1()
         {
             InitializeComponent();
@@ -53,9 +54,23 @@ namespace test_for_airhead
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 Form2 = new Form2();
-            Form2.Show();
-            this.Hide();
+            if (textBox1.Text != "" &&
+               textBox2.Text != "" &&
+               textBox3.Text != "" &&
+               textBox4.Text != "")
+            {
+                name = textBox1.Text;
+                surname = textBox2.Text;
+                eschoname = textBox3.Text;
+                groupname = textBox4.Text;
+                Form2 Form2 = new Form2();
+                Form2.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Заполни поля");
+            }
         }
     }
 }

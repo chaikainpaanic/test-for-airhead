@@ -12,6 +12,7 @@ namespace test_for_airhead
 {
     public partial class Form3 : Form
     {
+        public int result;
         public Form3()
         {
             InitializeComponent();
@@ -45,6 +46,7 @@ namespace test_for_airhead
                 radioButton3.Enabled = false;
                 radioButton4.Enabled = false;
                 button1.Visible = false;
+                if (radioButton3.Checked){result++;}
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -68,6 +70,7 @@ namespace test_for_airhead
                 radioButton7.Enabled = false;
                 radioButton8.Enabled = false;
                 button2.Visible = false;
+                if (radioButton6.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -97,7 +100,9 @@ namespace test_for_airhead
                 !button11.Visible && !button12.Visible && !button13.Visible &&
                 !button14.Visible && !button15.Visible && !button16.Visible)
             {
-                MessageBox.Show("Бах и другая форма");
+                Form4 Form4 = new Form4();
+                Form4.Show();
+                this.Hide();
             }
         }
 
@@ -117,6 +122,7 @@ namespace test_for_airhead
                 radioButton11.Enabled = false;
                 radioButton12.Enabled = false;
                 button4.Visible = false;
+                if (radioButton11.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -136,6 +142,7 @@ namespace test_for_airhead
                 radioButton14.Enabled = false;
                 radioButton15.Enabled = false;
                 button5.Visible = false;
+                if (radioButton13.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -157,6 +164,7 @@ namespace test_for_airhead
                 radioButton18.Enabled = false;
                 radioButton19.Enabled = false;
                 button6.Visible = false;
+                if (radioButton18.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -174,6 +182,7 @@ namespace test_for_airhead
                 radioButton20.Enabled = false;
                 radioButton21.Enabled = false;
                 button7.Visible = false;
+                if (radioButton20.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -194,6 +203,7 @@ namespace test_for_airhead
                 radioButton23.Enabled = false;
                 radioButton24.Enabled = false;
                 radioButton25.Enabled = false;
+                if (radioButton23.Checked) { result++; }
                 button8.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -215,6 +225,7 @@ namespace test_for_airhead
                 radioButton27.Enabled = false;
                 radioButton28.Enabled = false;
                 radioButton29.Enabled = false;
+                if (radioButton27.Checked) { result++; }
                 button9.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -237,6 +248,7 @@ namespace test_for_airhead
                 radioButton32.Enabled = false;
                 radioButton33.Enabled = false;
                 button10.Visible = false;
+                if (radioButton31.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
@@ -257,6 +269,7 @@ namespace test_for_airhead
                 radioButton35.Enabled = false;
                 radioButton36.Enabled = false;
                 radioButton37.Enabled = false;
+                if (radioButton36.Checked) { result++; }
                 button11.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -278,6 +291,7 @@ namespace test_for_airhead
                 radioButton39.Enabled = false;
                 radioButton40.Enabled = false;
                 radioButton41.Enabled = false;
+                if (radioButton38.Checked) { result++; }
                 button12.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -295,6 +309,7 @@ namespace test_for_airhead
             {
                 radioButton42.Enabled = false;
                 radioButton43.Enabled = false;
+                if (radioButton42.Checked) { result++; }
                 button13.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -316,6 +331,7 @@ namespace test_for_airhead
                 radioButton45.Enabled = false;
                 radioButton46.Enabled = false;
                 radioButton47.Enabled = false;
+                if (radioButton47.Checked) { result++; }
                 button14.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -337,6 +353,7 @@ namespace test_for_airhead
                 radioButton49.Enabled = false;
                 radioButton50.Enabled = false;
                 radioButton51.Enabled = false;
+                if (radioButton50.Checked) { result++; }
                 button15.Visible = false;
                 tabControl1.SelectedIndex++;
                 CheckAll();
@@ -359,9 +376,15 @@ namespace test_for_airhead
                 radioButton54.Enabled = false;
                 radioButton55.Enabled = false;
                 button16.Visible = false;
+                if (radioButton54.Checked) { result++; }
                 tabControl1.SelectedIndex++;
                 CheckAll();
             }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

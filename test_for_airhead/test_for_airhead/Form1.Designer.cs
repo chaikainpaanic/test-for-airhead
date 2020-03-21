@@ -67,7 +67,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
+            this.textBox1.ForeColor = System.Drawing.Color.LightGray;
             this.textBox1.Location = new System.Drawing.Point(64, 86);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(177, 20);
@@ -77,7 +77,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
+            this.textBox2.ForeColor = System.Drawing.Color.LightGray;
             this.textBox2.Location = new System.Drawing.Point(103, 133);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(138, 20);
@@ -98,7 +98,7 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
+            this.textBox3.ForeColor = System.Drawing.Color.LightGray;
             this.textBox3.Location = new System.Drawing.Point(103, 179);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(135, 20);
@@ -119,7 +119,7 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(52)))), ((int)(((byte)(57)))));
+            this.textBox4.ForeColor = System.Drawing.Color.LightGray;
             this.textBox4.Location = new System.Drawing.Point(88, 223);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(150, 20);
